@@ -28,23 +28,53 @@ export default function App() {
 
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-period-id]"));
+    let frameId: number | null = null;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+    const updateActivePeriod = () => {
+      frameId = null;
+      const markerY = window.innerHeight * 0.45;
+      let closestPeriodId = data.periods[0].id;
+      let closestDistance = Number.POSITIVE_INFINITY;
 
-        if (visible) {
-          const target = visible.target as HTMLElement;
-          setActivePeriodId(target.dataset.periodId || data.periods[0].id);
+      for (const section of sections) {
+        const rect = section.getBoundingClientRect();
+        const periodId = section.dataset.periodId || data.periods[0].id;
+
+        if (rect.top <= markerY && rect.bottom >= markerY) {
+          closestPeriodId = periodId;
+          break;
         }
-      },
-      { rootMargin: "-35% 0px -40% 0px", threshold: [0.2, 0.45, 0.7] },
-    );
 
-    sections.forEach((section) => observer.observe(section));
-    return () => observer.disconnect();
+        const distance = Math.min(Math.abs(rect.top - markerY), Math.abs(rect.bottom - markerY));
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestPeriodId = periodId;
+        }
+      }
+
+      setActivePeriodId((currentPeriodId) =>
+        currentPeriodId === closestPeriodId ? currentPeriodId : closestPeriodId,
+      );
+    };
+
+    const scheduleUpdate = () => {
+      if (frameId !== null) {
+        return;
+      }
+      frameId = window.requestAnimationFrame(updateActivePeriod);
+    };
+
+    scheduleUpdate();
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleUpdate);
+
+    return () => {
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+      window.removeEventListener("scroll", scheduleUpdate);
+      window.removeEventListener("resize", scheduleUpdate);
+    };
   }, []);
 
   useEffect(() => {

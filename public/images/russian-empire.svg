@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Архивный фон Российской империи">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241d17"/>
+      <stop offset=".5" stop-color="#11100d"/>
+      <stop offset="1" stop-color="#4a3427"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".64" numOctaves="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .15"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#g)"/>
+  <rect x="1040" y="0" width="260" height="1200" fill="#d7b46a" opacity=".08"/>
+  <circle cx="1280" cy="300" r="360" fill="#d7b46a" opacity=".18"/>
+  <path d="M160 870 L1640 870" stroke="#ead8b5" stroke-width="8" opacity=".14"/>
+  <path d="M260 870 L260 560 L340 560 L340 870 M520 870 L520 450 L610 450 L610 870 M820 870 L820 510 L910 510 L910 870 M1120 870 L1120 390 L1230 390 L1230 870 M1460 870 L1460 580 L1530 580 L1530 870" fill="none" stroke="#ead8b5" stroke-width="12" opacity=".13"/>
+  <rect width="1800" height="1200" filter="url(#noise)"/>
+</svg>

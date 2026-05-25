@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Архивный фон современной России">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101712"/>
+      <stop offset=".52" stop-color="#12100e"/>
+      <stop offset="1" stop-color="#24362f"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .13"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#g)"/>
+  <circle cx="1210" cy="410" r="410" fill="#6f8c7a" opacity=".18"/>
+  <g fill="none" stroke="#ead8b5" stroke-width="3" opacity=".18">
+    <path d="M460 780 L720 610 L990 690 L1240 490 L1500 610"/>
+    <path d="M460 780 L780 880 L990 690"/>
+    <path d="M720 610 L760 360 L1240 490"/>
+  </g>
+  <g fill="#ead8b5" opacity=".34">
+    <circle cx="460" cy="780" r="10"/>
+    <circle cx="720" cy="610" r="10"/>
+    <circle cx="990" cy="690" r="10"/>
+    <circle cx="1240" cy="490" r="10"/>
+    <circle cx="1500" cy="610" r="10"/>
+    <circle cx="780" cy="880" r="10"/>
+    <circle cx="760" cy="360" r="10"/>
+  </g>
+  <rect width="1800" height="1200" filter="url(#noise)"/>
+</svg>

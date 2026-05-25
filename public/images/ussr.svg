@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Архивный фон СССР">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2=".9">
+      <stop offset="0" stop-color="#321817"/>
+      <stop offset=".45" stop-color="#11100d"/>
+      <stop offset="1" stop-color="#243b36"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".76" numOctaves="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .16"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#g)"/>
+  <circle cx="1250" cy="380" r="250" fill="none" stroke="#d7b46a" stroke-width="4" opacity=".22"/>
+  <circle cx="1250" cy="380" r="8" fill="#ead8b5" opacity=".72"/>
+  <path d="M610 830 C830 690 1040 620 1410 585" fill="none" stroke="#ead8b5" stroke-width="9" opacity=".2"/>
+  <path d="M290 930 L1510 930" stroke="#9d554f" stroke-width="22" opacity=".2"/>
+  <path d="M1160 380 L1390 230" stroke="#ead8b5" stroke-width="5" opacity=".24"/>
+  <rect width="1800" height="1200" filter="url(#noise)"/>
+</svg>

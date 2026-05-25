@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-05-25T12:56:09.182413+00:00",
+  "sources": [
+    {
+      "local_filename": "public/images/ancient-rus.png",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Kievan_Rus_and_trade_routes_in_10th_century_(ru).svg",
+      "title": "Карта Киевской Руси и торговых путей X века",
+      "author": "Nikolay Omonov",
+      "license": "CC0",
+      "source_website": "Wikimedia Commons",
+      "supports_period": "Древняя Русь",
+      "supports_element": "Путь «из варяг в греки»",
+      "query": "Varangian routes map"
+    },
+    {
+      "local_filename": "public/images/muscovite-state.jpg",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Sergius_of_Radonezh_vita_icon_(17_c.,_Yaroslavl_museum).jpg",
+      "title": "Житийная икона Сергия Радонежского, XVII век",
+      "author": "анонимный автор",
+      "license": "Public domain",
+      "source_website": "Wikimedia Commons",
+      "supports_period": "Московское государство",
+      "supports_element": "Сергий Радонежский",
+      "query": "Sergius of Radonezh icon"
+    },
+    {
+      "local_filename": "public/images/russian-empire.jpg",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Volkonsky-4_S_G.jpg",
+      "title": "Портрет Сергея Григорьевича Волконского",
+      "author": "George Dawe",
+      "license": "Public domain",
+      "source_website": "Wikimedia Commons",
+      "supports_period": "Российская империя",
+      "supports_element": "Восстание декабристов",
+      "query": "Decembrist revolt 1825 painting"
+    },
+    {
+      "local_filename": "public/images/ussr.jpg",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_(1961)_-_Restoration.jpg",
+      "title": "Портрет Юрия Гагарина, 1961 год",
+      "author": "Arto Jousi / /Suomen valokuvataiteen museo / Alma Media / Uuden Suomen kokoelma; Restored by Adam Cuerden",
+      "license": "Public domain",
+      "source_website": "Wikimedia Commons",
+      "supports_period": "СССР",
+      "supports_element": "Первый полёт человека в космос",
+      "query": "Yuri Gagarin 1961 public domain"
+    },
+    {
+      "local_filename": "public/images/contemporary-russia.jpg",
+      "original_url": "https://commons.wikimedia.org/wiki/File:Moscow_Skyline.jpg",
+      "title": "Панорама современной Москвы",
+      "author": "Mia Primavera",
+      "license": "CC0",
+      "source_website": "Wikimedia Commons",
+      "supports_period": "Современная Россия",
+      "supports_element": "Цифровизация повседневности и платформенная экономика",
+      "query": "Moscow International Business Center skyline"
+    }
+  ],
+  "missing": []
+}

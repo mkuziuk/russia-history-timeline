@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" role="img" aria-label="Архивный фон Московского государства">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2=".9">
+      <stop offset="0" stop-color="#271616"/>
+      <stop offset=".55" stop-color="#15120f"/>
+      <stop offset="1" stop-color="#354130"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .16"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#g)"/>
+  <circle cx="1260" cy="330" r="430" fill="#9d554f" opacity=".24"/>
+  <path d="M0 820 L210 720 L330 780 L480 640 L660 735 L820 610 L1010 700 L1180 590 L1390 720 L1800 610 L1800 1200 L0 1200 Z" fill="#0f0e0b" opacity=".72"/>
+  <path d="M260 735 L260 470 M480 640 L480 420 M820 610 L820 370 M1180 590 L1180 360 M1390 720 L1390 475" stroke="#ead8b5" stroke-width="12" opacity=".13"/>
+  <rect width="1800" height="1200" filter="url(#noise)"/>
+</svg>

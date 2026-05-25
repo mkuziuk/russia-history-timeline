@@ -78,7 +78,7 @@ def source_note(image_sources: dict[str, Any]) -> str:
     missing = image_sources.get("missing", [])
     parts: list[str] = []
     if sources:
-        parts.append("Изображения: Wikimedia Commons и открытые источники; подробная атрибуция сохранена в data/image_sources.json.")
+        parts.append("Изображения: Wikimedia Commons и открытые источники.")
     if missing:
         parts.append("Часть фоновых материалов заменена локальными нейтральными панелями.")
     if not parts:

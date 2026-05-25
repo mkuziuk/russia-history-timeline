@@ -130,7 +130,7 @@ export default function App() {
         </div>
       </main>
       <footer className="site-footer">
-        <p>PDF, SVG и PNG создаются из этих же данных командой экспорта.</p>
+        <p>Создано: Mikhail Kuziuk</p>
       </footer>
       {selectedDetail ? (
         <DetailPanel

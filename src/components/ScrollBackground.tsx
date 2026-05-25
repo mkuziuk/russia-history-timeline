@@ -5,7 +5,13 @@ interface ScrollBackgroundProps {
   activePeriodId: string;
 }
 
-const publicPath = (value: string) => value.replace(/^public\//, "/");
+const publicPath = (value: string) => {
+  const relativePath = value.replace(/^public\//, "");
+  const basePath = import.meta.env.BASE_URL.endsWith("/")
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+  return `${basePath}${relativePath}`;
+};
 
 export default function ScrollBackground({ periods, activePeriodId }: ScrollBackgroundProps) {
   return (

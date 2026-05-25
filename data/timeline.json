@@ -21,7 +21,7 @@
           "image_query": "Wikimedia Commons route from the Varangians to the Greeks map",
           "image_attribution": "Nikolay Omonov; CC0",
           "sources": [
-            "https://www.britannica.com/topic/Varangian",
+            "https://www.britannica.com/topic/Kievan-Rus",
             "https://www.worldhistory.org/Kievan_Rus/"
           ]
         },
@@ -36,8 +36,7 @@
           "image_query": "Wikimedia Commons Yaroslav the Wise portrait",
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
-            "https://www.britannica.com/biography/Yaroslav-the-Wise",
-            "https://www.worldhistory.org/Yaroslav_I/"
+            "https://www.britannica.com/biography/Yaroslav-the-Wise"
           ]
         },
         {
@@ -51,8 +50,7 @@
           "image_query": "Wikimedia Commons Russkaya Pravda manuscript",
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
-            "https://www.britannica.com/topic/Russkaya-Pravda",
-            "https://sourcebooks.fordham.edu/source/yaroslav1.asp"
+            "https://www.britannica.com/topic/Russkaya-Pravda"
           ]
         },
         {
@@ -105,7 +103,7 @@
           "image_query": "Wikimedia Commons Novgorod veche bell Moscow 1478",
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
-            "https://www.britannica.com/place/Novgorod-Russia",
+            "https://www.britannica.com/place/Veliky-Novgorod",
             "https://www.britannica.com/place/Moscow/History"
           ]
         },
@@ -159,7 +157,7 @@
           "image_query": "Wikimedia Commons Decembrist revolt 1825 painting",
           "image_attribution": "George Dawe; Public domain",
           "sources": [
-            "https://www.britannica.com/event/Decembrist-Revolt",
+            "https://www.britannica.com/topic/Decembrist",
             "https://www.britannica.com/place/Russia/Nicholas-I"
           ]
         },
@@ -189,7 +187,7 @@
           "image_query": "Wikimedia Commons Sergei Witte portrait",
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
-            "https://www.britannica.com/biography/Sergey-Yulyevich-Count-Witte",
+            "https://www.britannica.com/biography/Sergey-Yulyevich-Graf-Witte",
             "https://www.britannica.com/place/Russia/The-revolution-of-1905-06"
           ]
         },
@@ -228,8 +226,7 @@
           "image_query": "Wikimedia Commons Soviet propaganda new Soviet man",
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
-            "https://www.britannica.com/place/Soviet-Union",
-            "https://www.britannica.com/topic/Soviet-Union-Year-In-Review-1991"
+            "https://www.britannica.com/place/Soviet-Union"
           ]
         },
         {
@@ -273,7 +270,7 @@
           "image_query": "Wikimedia Commons Yuri Gagarin 1961 public domain",
           "image_attribution": "Arto Jousi / /Suomen valokuvataiteen museo / Alma Media / Uuden Suomen kokoelma; Restored by Adam Cuerden; Public domain",
           "sources": [
-            "https://www.nasa.gov/history/yuri-gagarin-first-human-spaceflight/",
+            "https://apod.nasa.gov/apod/ap010414.html",
             "https://www.britannica.com/biography/Yuri-Gagarin"
           ]
         }
@@ -298,7 +295,7 @@
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
             "https://cctld.ru/en/about/history/",
-            "https://www.icann.org/resources/pages/russia-2012-02-25-en"
+            "https://www.iana.org/domains/root/db/ru.html"
           ]
         },
         {
@@ -312,8 +309,7 @@
           "image_query": "Wikimedia Commons Moscow city digital economy",
           "image_attribution": "Mia Primavera; CC0",
           "sources": [
-            "https://www.oecd.org/digital/",
-            "https://www.worldbank.org/en/topic/digitaldevelopment"
+            "https://www.worldbank.org/ext/en/topic/digital-and-ai"
           ]
         },
         {
@@ -342,8 +338,7 @@
           "image_query": "Wikimedia Commons Elvira Nabiullina official portrait",
           "image_attribution": "Отдельная иллюстрация не используется; см. фон периода и ссылки на источники.",
           "sources": [
-            "https://www.cbr.ru/eng/today/bankstatus/",
-            "https://www.britannica.com/biography/Elvira-Nabiullina"
+            "https://www.cbr.ru/eng/about_br/nabiullinaes/"
           ]
         }
       ]

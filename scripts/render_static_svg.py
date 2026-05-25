@@ -122,7 +122,12 @@ def main() -> int:
         for item in items:
             card_y = y
             description_lines = wrap(item["full_description"], 118)
-            source_lines = wrap(f"Источник: {item['sources'][0]}", 132) if item.get("sources") else []
+            source_lines = []
+            if item.get("sources"):
+                source_lines = ["Источники:"] + [
+                    f"{source_index}. {source}"
+                    for source_index, source in enumerate(item["sources"], start=1)
+                ]
             source_y = card_y + 190 + len(description_lines) * 34
             item_height = max(300, source_y - card_y + 48 + len(source_lines) * 28)
             color = TYPE_COLORS[item["type"]]
